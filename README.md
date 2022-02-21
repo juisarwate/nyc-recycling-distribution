@@ -1,6 +1,6 @@
 # Recycling Distribution in NYC
 
-My goal with this project was 
+My goal with this project was exploring a breakdown of different kinds of collections of recycling in NYC.
 
 ## Process
 
@@ -16,7 +16,7 @@ I used the following set of tools for my discovery:
  2. Jupyter Notebooks/Pandas
  3. Datawrapper
 
-I primarily worked using Excel workbooks.
+I primarily worked using Excel workbooks before visualizing using Datawrapper.
 
 ## What I discovered
 
