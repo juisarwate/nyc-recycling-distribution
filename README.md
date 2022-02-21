@@ -13,8 +13,8 @@ After this, I examined the breakdown of each type of recycling through the workb
 I used the following set of tools for my discovery:
 
  1. Excel
- 2. Jupyter Notebooks/Pandas
- 3. Datawrapper
+ 2. Datawrapper
+ 3. Jupyter Notebook/Pandas
 
 I primarily worked using Excel workbooks before visualizing using Datawrapper.
 
