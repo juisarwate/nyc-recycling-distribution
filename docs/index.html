@@ -3,11 +3,33 @@
 
 <head>
     <title>Recycling Distribution NYC</title>
+    <style>
+        .row-container {
+             display: flex;
+             flex-direction: row;
+             flex-wrap: wrap;
+             width: 100%;
+             gap: 2em;
+        }
+   
+        .column-container {
+             display: flex;
+             flex-direction: column;
+             flex-basis: 100%;
+             flex: 1;
+        }
+   
+        @media (max-width: 768px) {
+             .row-container {
+                  flex-direction: column;
+             }
+        }
+    </style>
 </head>
 
 <body>
-    <div class="full-size-image" id="national-parks-story">
-        <div class="text-container">
+    <div class="row-container" id="national-parks-story">
+        <div class="column-container">
             <p>
                 <img src="pexels-photo-802221.jpeg">
             </p>
@@ -16,47 +38,50 @@
             </h6>
         </div>
     </div>
-    <div class="text-container">
+
+    <div class="row-container">
         <h1>Distribution of Recycling in NYC</h1>
         <h4>by Jui Sarwate</h4>
     </div>
-    <div class="text-container">
-        <p>The NYC Department of Sanitation <a href="https://www1.nyc.gov/assets/dsny/site/resources">provides</a>
+
+    <div class="row-container">
+        <div class="column-container">
+            <p>The NYC Department of Sanitation <a href="https://www1.nyc.gov/assets/dsny/site/resources">provides</a>
             annual reports on the distribution of diverted recyclable and compostable materials. In these reports,
             average daily tons of recycling are reported along with the programs through which these donations take
             place. Some of the recycling and composting is facilitated directly through the DSNY (Department of
             Sanitation) and some is done through department-supported programs, individuals collecting, and through
             recycling drives hosted by organizations.
-        </p>
-        <p>There are almost 20 different kinds of recycling programs reported by the DSNY. Along with what could be
+            </p>
+            <p>There are almost 20 different kinds of recycling programs reported by the DSNY. Along with what could be
             considered traditional recycling programs of paper, plastic, glass, and metal, there are programs such as
             the one where every January the NYC Department of Sanitation picks up Christmas trees for composting. DSNY
             also facilitates a program at Rikers Island Correctional Facility for composting food waste from the
             kitchens and cafeterias there. NYC Residents can even drop off their hazardous waste products in select DSNY
             drop-off facilities for safe recycling.
-        </p>
-        <p>Programs were introduced throughout the years that DSNY reported recycling totals. In FY 2014, the
-            <a href="https://www.refashionnyc.org">Re-fashionNYC</a> textile donation and E-cycleNYC electronic waste
+            </p>
+            <p>Programs were introduced throughout the years that DSNY reported recycling totals. In FY 2014, the
+                <a href="https://www.refashionnyc.org">Re-fashionNYC</a> textile donation and E-cycleNYC electronic waste
             donations program. Although DSNY already
             accepted textile and electronics recycling through various other methods and organizations, they partnered
             with nonprofits specifically for this. One of the programs that remained a mystery to me is the Hard Cover
             recycling program that was introduced in FY16. I searched and searched and was unable to figure out what it
             could be. I think that
             further reporting and interviewing someone at the Department of Sanitation could provide to be helpful.
-        </p>
-        <iframe title="NYC Municipal Recycling By Type, FY 2021" aria-label="Bar Chart" id="datawrapper-chart-4R7Dz"
+            </p>
+            <iframe title="NYC Municipal Recycling By Type, FY 2021" aria-label="Bar Chart" id="datawrapper-chart-4R7Dz"
             src="https://datawrapper.dwcdn.net/4R7Dz/2/" scrolling="no" frameborder="0"
             style="width: 0; min-width: 100% !important; border: none;" height="516"></iframe>
-        <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();
-        </script>
-        <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();
-        </script>
-        <p>The non-DSNY sources for recycling range. Individuals can recycle their cans and bottles, compost their yard
+            <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();
+            </script>
+            <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();
+            </script>
+            <p>The non-DSNY sources for recycling range. Individuals can recycle their cans and bottles, compost their yard
             waste and leaves, and can safely dispose of their electronics at e-waste centers. Non-profit organizations
             recycle and compost through collection drives. Retail stores can even participate in the donation of
             textiles. There is apparently a program for recycling plastic bags for retail, as well. However, in the ten
             years of reports available from the Department of Sanitation, this program has had no data reported.</p>
-        <p>The DSNY (Department of Sanitation) collects both from the curbside and from containers. The curbside
+            <p>The DSNY (Department of Sanitation) collects both from the curbside and from containers. The curbside
             collections are 90% residential and 10% from institutions, according to a DSNY annual <a
                 href="https://www1.nyc.gov/assets/dsny/site/resources/statistics/annual-dsny-non-dsny-collection">report.</a>
             Curbside
@@ -68,14 +93,14 @@
             from containers of varying sizes. It's much rarer for containers to be used for metal/glass/plastic
             recycling. Residents tend to recycle through curbside pick up instead of collecting recycling in a
             container, according to the same report.
-        </p>
-        <iframe title="DSNY Curbside and Containerized Collections FY2011-21" aria-label="Interactive line chart"
+            </p>
+            <iframe title="DSNY Curbside and Containerized Collections FY2011-21" aria-label="Interactive line chart"
             id="datawrapper-chart-isaWJ" src="https://datawrapper.dwcdn.net/isaWJ/1/" scrolling="no" frameborder="0"
             style="border: none;" width="848" height="460"></iframe>
-        <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();
-        </script>
-
-        <h4>Check out the full project <a href="https://github.com/juisarwate/nyc-recycling-distribution">here</a>!</h4>
+            <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();
+            </script>
+            <h4>Check out the full project <a href="https://github.com/juisarwate/nyc-recycling-distribution">here</a>!</h4>
+        </div>
     </div>
 </body>
 
